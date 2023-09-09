@@ -1,0 +1,18 @@
+Model.create() / Model.save() --> It creates a new document in the database
+Model.find() --> It returns all the documents in a collection
+Model.findById() --> It returns a single document based on the _id field
+Model.findOne(): Find a single document that matches the specified conditions.
+Model.updateOne(): Update a single document that matches the specified conditions.
+Model.updateMany(): Update multiple documents that match the specified conditions.
+Model.deleteOne(): Delete a single document that matches the specified conditions.
+Model.deleteMany(): Delete multiple documents that match the specified conditions.
+Model.countDocuments(): Count the number of documents that match the specified conditions.
+Model.distinct(): Find distinct values for a specified field.
+Model.sort(): Sort query results based on specified criteria.
+Model.limit(): Limit the number of documents returned by a query.
+Model.skip(): Skip a specified number of documents in the query result.
+Model.populate(): Populate referenced documents in a query result.
+Model.aggregate(): Perform aggregation operations on the collection.
+Model.findOneAndUpdate(): Find a document and update it (atomically).
+Model.findOneAndDelete(): Find a document and delete it (atomically).
+Model.findOneAndReplace(): Find a document and replace it (atomically).
